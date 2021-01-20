@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finger Print v1</title>
+    <script src="https://cdn.jsdelivr.net/gh/lemon-mint/cfpjs@1.0/fp.js"></script>
+</head>
+<body>
+    <div>
+        <h1>My fingerprint</h1>
+        <p id="fjs"></p>
+    </div>
+    <script>
+        cfpjs().then((v)=>{
+            console.log(v);
+            document.getElementById("fjs").innerText = v;
+        })
+    </script>
+</body>
+</html>
