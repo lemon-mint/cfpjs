@@ -1,0 +1,2 @@
+# cfpjs
+Canvas fingerprinting library
