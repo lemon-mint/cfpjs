@@ -190,8 +190,8 @@ let cfp3js = async (config) => {
         console.log("2d canvas err");
         fp += "Canvas 2d ERROR";
     }
-    //___c___.hidden = true;
-    //___c___.remove();
+    ___c___.hidden = true;
+    ___c___.remove();
 
     let __fp__webgl___ = document.createElement("canvas");
     document.body.appendChild(__fp__webgl___);
